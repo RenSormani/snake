@@ -1,0 +1,41 @@
+.css-selector {
+  font-family: "Orbitron";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "VT323", monospace;
+  color: yellow;
+  margin: 0;
+  background-image: url(https://images.unsplash.com/photo-1570741066052-817c6de995c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80);
+  display: flex;
+  flex-direction: column;
+}
+
+#game-board {
+  background-color: gray;
+  border-radius: 1em;
+  border: #b6a449 solid 0.4rem;
+  width: 70vmin;
+  height: 70vmin;
+  display: grid;
+  grid-template-rows: repeat(21, 1fr);
+  grid-template-columns: repeat(21, 1fr);
+}
+
+h1 {
+  color: #b6a449;
+  font-size: 4.5rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
