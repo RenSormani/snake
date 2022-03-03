@@ -40,3 +40,30 @@
         padding-bottom: 1rem;
         padding-top: 1rem;
     }
+    
+  .snake {
+    background-color: hsl(200, 53%, 24%);
+    border: .25vmin solid black;
+    border-radius: 0.5rem;
+  }
+
+  .food {
+    background-color: hsl(50, 43%, 50%);
+    border: .25vmin solid black;
+    border-radius: 0.5rem;
+  }
+
+  #divScore {
+    text-align: center;
+    border: 2px solid hsl(50, 43%, 50%);
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 1rem;
+    width: auto;
+    height: auto;
+    font-family: Orbitron;
+    font-size: 1.5rem;
+    color: hsl(50, 43%, 50%);
+    background-color: black;
+  }

@@ -39,3 +39,30 @@ h1 {
   padding-bottom: 1rem;
   padding-top: 1rem;
 }
+
+.snake {
+  background-color: #1d485e;
+  border: 0.25vmin solid black;
+  border-radius: 0.5rem;
+}
+
+.food {
+  background-color: #b6a449;
+  border: 0.25vmin solid black;
+  border-radius: 0.5rem;
+}
+
+#divScore {
+  text-align: center;
+  border: 2px solid #b6a449;
+  padding: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 1rem;
+  width: auto;
+  height: auto;
+  font-family: Orbitron;
+  font-size: 1.5rem;
+  color: #b6a449;
+  background-color: black;
+}
