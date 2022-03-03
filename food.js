@@ -24,14 +24,14 @@ export function draw(gameBoard) {
     foodElement.style.gridColumnStart = food.x;
     foodElement.classList.add('food');
     gameBoard.appendChild(foodElement);
-}
+};
 
 // Randomise food position every time it is eaten including not a position on the snake
 // uses while loop to ensure that when food is null or on snake already, get new position
 function getRandomFoodPosition() {
     let newFoodPosition
     while (newFoodPosition == null || onSnake(newFoodPosition)) {
-        newFoodPosition = randomGridPosition()
-    }
-    return newFoodPosition
-}
+        newFoodPosition = randomGridPosition();
+    };
+    return newFoodPosition;
+};
