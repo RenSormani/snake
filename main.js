@@ -1,9 +1,10 @@
-import { update as updateSnake, draw as drawSnake, snake_speed } from './snake.js'
+import { update as updateSnake, draw as drawSnake, snake_speed, getSnakeHead, snakeIntersection} from './snake.js'
 import { update as updateFood, draw as drawFood } from './food.js'
 import { outsideGrid } from './grid.js'
  
- // allows for a new render time
+//Variables
 let lastRenderTime = 0;
+let gameOver = false
 const gameBoard = document.getElementById('game-board')
 
 //game loop to constantly repeat and update the game render (snake position/food). Also If game over, then sets up an alert to say they lost, then refreshes page to restart
