@@ -1,3 +1,6 @@
+import { update as updateSnake, draw as drawSnake, snake_speed } from './snake.js'
+
+ 
  // allows for a new render time
 let lastRenderTime = 0;
 
@@ -28,15 +31,15 @@ function main(currentTime) {
 
     //Functions to update snake and food and check for a failure state
 
-function update() {
-    updateSnake();
-    updateFood();
-    checkDeath();
-};
+    function update() {
+        updateSnake();
+        updateFood();
+        checkDeath();
+    };
 
-function draw() {
-    // set innerHTML to nothing to clear previous snake pieces
-    gameBoard.innerHTML = '';
-    drawSnake(gameBoard);
-    drawFood(gameBoard);
-};
+    function draw() {
+        // set innerHTML to nothing to clear previous snake pieces
+        gameBoard.innerHTML = '';
+        drawSnake(gameBoard);
+        drawFood(gameBoard);
+    };
