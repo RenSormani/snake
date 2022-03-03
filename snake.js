@@ -17,19 +17,6 @@ export function update() {
     snakeBody[0].y += inputDirection.y;
 }
 
-// Use for loop to take 2nd to last element in snake
-
-export function update() {
-    addSegments();
-    const inputDirection = getInputDirection ()
-    for (let i = snakeBody.length - 2; i >=0; i--) {
-        snakeBody[i + 1] = { ...snakeBody[i] };
-    };
-
-    snakeBody[0].x += inputDirection.x;
-    snakeBody[0].y += inputDirection.y;
-};
-
 // loop through each segment of the snake and draw to the gameBoard
 // using grid set x, y coordinates
 export function draw(gameBoard) {
@@ -39,8 +26,8 @@ export function draw(gameBoard) {
         snakeElement.style.gridColumnStart = segment.x;
         snakeElement.classList.add('snake');
         gameBoard.appendChild(snakeElement);
-    })
-}
+    });
+};
 
 // take variable newSegments and add that amount to the snake
 export function expandSnake(amount) {
