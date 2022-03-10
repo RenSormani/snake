@@ -1,3 +1,4 @@
+//VARIABLES
 const grid_size = 21
 
 //gives us a random number between 0 and 1 * by grid size(21).
@@ -8,7 +9,7 @@ export function randomGridPosition() {
     };
 };
 
-//Check to see if position is greater than the maimum and minimum grid sizes
+//Check to see if position is greater than the maximum and minimum grid sizes
 export function outsideGrid(position) {
     return (
         position.x < 1 || position.x > grid_size ||

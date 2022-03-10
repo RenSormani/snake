@@ -1,11 +1,11 @@
 import { getInputDirection } from "./input.js"
-
 export const snake_speed = 5;
+
+//VARIABLES
 const snakeBody = [{ x:11, y:11 }];
 let newSegments = 0;
 
 // Use for loop to take 2nd to last element in snake
-
 export function update() {
     addSegments();
     const inputDirection = getInputDirection ()

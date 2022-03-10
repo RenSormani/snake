@@ -2,7 +2,7 @@ import { update as updateSnake, draw as drawSnake, snake_speed, getSnakeHead, sn
 import { update as updateFood, draw as drawFood } from './food.js'
 import { outsideGrid } from './grid.js'
  
-//Variables
+//VARIABLES
 let lastRenderTime = 0
 let gameOver = false
 const gameBoard = document.getElementById('game-board')
