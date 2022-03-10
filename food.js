@@ -3,7 +3,7 @@ import { randomGridPosition } from "./grid.js"
 
 // VARIABLES
 let food = getRandomFoodPosition();
-const expansion_rate = 1;
+const expansion_rate = 5;
 let score = 0;
 divScore.innerText="Score: 0";
 
