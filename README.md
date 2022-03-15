@@ -32,3 +32,6 @@ When it came to creating the game Snake, I took a step-by-step process as outlin
 •	Food has been set to reappear in a random position on the grid once eaten by the snake.
 
 •	The game is over when the snake either crosses the boundaries of the grid (i.e. hits the wall) or it intersects with its own tail, resulting in an alert which prompts the user to click ‘ok’ to restart the game.
+
+# Feed The Snake
+<img width="634" alt="2022-03-15 (2)" src="https://user-images.githubusercontent.com/93707792/158358181-c80cea46-17ec-4277-8b4d-67da54392ba9.png">
