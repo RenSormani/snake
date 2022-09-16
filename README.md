@@ -11,7 +11,7 @@ As part of my journey through the JavaScript fundamentals I was charged with cre
 •	GitHub
 
 # The Design
-I built this version of Snake with a mobile-first approach, making it responsive to different devices. I used minimal HTML, clean CSS, and concentrated mainly on the JavaScript. When it came to designing the game, I decided to forgo Canvas and concentrate on using CSS grid, which turned out perfect for creating a 21x21 square gameboard, as well as representing the snake, its ever-expanding tail and the food it eats. 
+I built this version of Snake using minimal HTML, clean CSS, and concentrated mainly on the JavaScript. When it came to designing the game, I decided to forgo Canvas and concentrate on using CSS grid, which turned out perfect for creating a 21x21 square gameboard, as well as representing the snake, its ever-expanding tail and the food it eats. 
 
 # The Process
 When it came to creating the game Snake, I took a step-by-step process as outlined below:
